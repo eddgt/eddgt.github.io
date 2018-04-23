@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.1/css/foundation.min.css">
+  <meta charset="utf-8">
+  <title>CALL API </title>
+</head>
+
+  <body>
+    <div class="container" id="app">
+      <h3 class="text-center">API REST CONSUMING -- EDDGT</h3>
+      <div class="columns medium-4" v-for="(result, index) in results">
+            <div class="card">
+              <div class="card-section">
+                <p>Indice {{ index }} </p>
+              </div>
+              <div class="card-divider">
+                <p>ID {{ result.userId }}</p>
+              </div>
+              <div class="card-section">
+                <p>Title: &#8364 {{ result.title }}</p>
+              </div>
+            </div>
+          </div>
+
+    <script src="https://unpkg.com/vue"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="vueApp.js"></script>
+  </body>
+</html>
