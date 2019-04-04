@@ -68,6 +68,7 @@ p {
   background: rgba(0, 0, 0, 0.2);
   text-align: center;
   color: #fff;
+  border-radius: 50%;
 }
 .sidebar-wrapper .name {
   font-size: 32px;
